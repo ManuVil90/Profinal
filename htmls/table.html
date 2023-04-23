@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>Tables</h1>
+        </section>
+        <h2 class="text-info">Overview</h2>
+        <h3>Los primeros 4 emperadores del mar, resaltados los derrotados actualmente</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h2 class="text-info">Variants </h2>
+        <h3>On tables</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-primary">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>On rows</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr class="table-primary">
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="table-secondary">
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr class="table-primary">
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr class="table-secondary">
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr class="table-primary">
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <h3>On cells (`td` or `th`)</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th class="table-danger" scope="col">Yonko</th>
+                    <th class="table-warning" scope="col">Nombre</th>
+                    <th class="table-danger" scope="col">Fruta del Diablo</th>
+                    <th class="table-warning" scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th class="table-warning" scope="row">1</th>
+                    <td class="table-danger">Shanks el Pelirrojo</td>
+                    <td class="table-warning">No tiene</td>
+                    <td class="table-danger">Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th class="table-danger" scope="row">2</th>
+                    <td class="table-warning">Charlotte Linlin</td>
+                    <td class="table-danger">Soru Soru no Mi</td>
+                    <td class="table-warning"> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th class="table-warning" scope="row">3</th>
+                    <td class="table-danger">Kaido</td>
+                    <td class="table-warning">Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td class="table-danger">Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th class="table-danger" scope="row">4</th>
+                    <td class="table-warning">Edward Newgate</td>
+                    <td class="table-danger">Gura Gura no Mi</td>
+                    <td class="table-warning">Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h2 class="text-info">Accented tables</h2>
+        <h3>Striped rows</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko nueva era</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Marshall D. Teach</td>
+                    <td>Yami Yami no Mi y Gura Gura no Mi</td>
+                    <td>Piratas de Barbanegra</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Monkey D. Luffy</td>
+                    <td>Gomu Gomu no Mi (Hito Hito no Mi, Moderu: Nika)</td>
+                    <td>Piratas de Sombrero de Paja</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Buggy</td>
+                    <td>Bara Bara</td>
+                    <td>Cross Guild</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>Striped columns</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-striped-columns">
+                <thead>
+                  <tr>
+                    <th scope="col">Miembros de la Marina</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Puesto</th>
+                    <th scope="col">Fruta del Diablo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Sakazuki</td>
+                    <td>Almirante de la flota</td>
+                    <td>Magu Magu</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Kizaru (Borsalino)</td>
+                    <td>Almirantes</td>
+                    <td>Pika Pika</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Fujitora (Issho)</td>
+                    <td>Almirantes</td>
+                    <td>Zushi Zushi</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Ryokugyu (Aramaki)</td>
+                    <td>Almirantes</td>
+                    <td>Mori Mori</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Monkey D. Garp</td>
+                    <td>Vicealmirante</td>
+                    <td>No tiene</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Hina</td>
+                    <td>Contraalmirantes</td>
+                    <td>Ori Ori</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Koby</td>
+                    <td>Comodoro</td>
+                    <td>No tiene</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+        <h3>Striped table variants</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-dark table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Barcos</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Tripulación</th>
+                    <th scope="col">Capitan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Jolly roger</td>
+                    <td>Piratas del Pelirrojo</td>
+                    <td>Shanks</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Monkey D. Luffy</td>
+                    <td>Piratas de Sombrero de Paja</td>
+                    <td>Thousand Sunny</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Buggy</td>
+                    <td>Piratas de Buggy</td>
+                    <td>Big Top</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Marshall D. Teach</td>
+                    <td>Piratas de Barbanegra</td>
+                    <td>Saber of Xebec</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-dark table-striped-columns">
+                <thead>
+                  <tr>
+                    <th scope="col">Barcos</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Tripulación</th>
+                    <th scope="col">Capitan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Jolly roger</td>
+                    <td>Piratas del Pelirrojo</td>
+                    <td>Shanks</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Monkey D. Luffy</td>
+                    <td>Piratas de Sombrero de Paja</td>
+                    <td>Thousand Sunny</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Buggy</td>
+                    <td>Piratas de Buggy</td>
+                    <td>Big Top</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Marshall D. Teach</td>
+                    <td>Piratas de Barbanegra</td>
+                    <td>Saber of Xebec</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-success table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Barcos</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Tripulación</th>
+                    <th scope="col">Capitan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Jolly roger</td>
+                    <td>Piratas del Pelirrojo</td>
+                    <td>Shanks</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Monkey D. Luffy</td>
+                    <td>Piratas de Sombrero de Paja</td>
+                    <td>Thousand Sunny</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Buggy</td>
+                    <td>Piratas de Buggy</td>
+                    <td>Big Top</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Marshall D. Teach</td>
+                    <td>Piratas de Barbanegra</td>
+                    <td>Saber of Xebec</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-danger table-striped-columns">
+                <thead>
+                  <tr>
+                    <th scope="col">Barcos</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Tripulación</th>
+                    <th scope="col">Capitan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Jolly roger</td>
+                    <td>Piratas del Pelirrojo</td>
+                    <td>Shanks</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Monkey D. Luffy</td>
+                    <td>Piratas de Sombrero de Paja</td>
+                    <td>Thousand Sunny</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Buggy</td>
+                    <td>Piratas de Buggy</td>
+                    <td>Big Top</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Marshall D. Teach</td>
+                    <td>Piratas de Barbanegra</td>
+                    <td>Saber of Xebec</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+        <h3>Hoverable rows</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-dark table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-striped table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>Active tables</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr class="table-active">
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td class="table-active">Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td class="table-active"> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td class="table-active">Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td class="table-active">Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-dark">
+                <thead>
+                <tr class="table-active">
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td class="table-active">Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td class="table-active">Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td class="table-active">Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td class="table-active">Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h2 class="text-info">Table borders</h2>
+        <h3>Bordered tables</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-bordered border-danger">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>Tables without borders</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-borderless">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-dark table-borderless">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>Small tables</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-sm">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-dark table-sm">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>Table group dividers </h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>Vertical alignment</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="table-responsive">
+                <table class="table align-middle">
+                    <thead>
+                    <tr class="align-top">
+                        <th scope="col">Yonko</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Fruta del Diablo</th>
+                        <th scope="col">Tripulación</th>
+                    </tr>
+                    </thead>
+                    <tbody class="">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Shanks el Pelirrojo</td>
+                        <td>No tiene</td>
+                        <td>Piratas Pelirrojos</td>
+                    </tr>
+                    <tr class="align-top">
+                        <th scope="row">2</th>
+                        <td>Charlotte Linlin</td>
+                        <td>Soru Soru no Mi</td>
+                        <td> Piratas de Big Mom</td>
+                    </tr>
+                    <tr class="align-bottom">
+                        <th scope="row">3</th>
+                        <td>Kaido</td>
+                        <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                        <td>Bestias Piratas</td>
+                    </tr>
+                    <tr class="align-top">
+                        <th scope="row">4</th>
+                        <td>Edward Newgate</td>
+                        <td>Gura Gura no Mi</td>
+                        <td>Piratas de Barbablanca</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </section>
+
+        </section>
+        <h3>Nesting</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Primeros Almirantes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <th scope="row">1</th>
+                                    <td>King</td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">2</th>
+                                    <td>Queen</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+                        </td>
+                    </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>             
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h2 class="text-info">Anatomy </h2>
+        <h3>Table head</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead class="table-light">
+                  <tr>
+                    <th scope="col">Barcos</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Tripulación</th>
+                    <th scope="col">Capitan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Jolly roger</td>
+                    <td>Piratas del Pelirrojo</td>
+                    <td>Shanks</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Monkey D. Luffy</td>
+                    <td>Piratas de Sombrero de Paja</td>
+                    <td>Thousand Sunny</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Buggy</td>
+                    <td>Piratas de Buggy</td>
+                    <td>Big Top</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Marshall D. Teach</td>
+                    <td>Piratas de Barbanegra</td>
+                    <td>Saber of Xebec</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col">Barcos</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Tripulación</th>
+                    <th scope="col">Capitan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Jolly roger</td>
+                    <td>Piratas del Pelirrojo</td>
+                    <td>Shanks</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Monkey D. Luffy</td>
+                    <td>Piratas de Sombrero de Paja</td>
+                    <td>Thousand Sunny</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Buggy</td>
+                    <td>Piratas de Buggy</td>
+                    <td>Big Top</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Marshall D. Teach</td>
+                    <td>Piratas de Barbanegra</td>
+                    <td>Saber of Xebec</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+        <h3>Table foot </h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <td>SE BUSCAN</td>
+                    <td>SE BUSCAN</td>
+                    <td>SE BUSCAN</td>
+                    <td>SE BUSCAN</td>
+                </tfoot>
+            </table>
+        </section>
+        <h3>Captions</h3>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table table-sm">
+                <caption>Se buscan por PIRATERIA</caption>
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <table class="table caption-top">
+                <caption>Se buscan por PIRATERIA</caption>
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h2>Responsive tables</h2>
+        <h3>Always responsive</h3>
+        <section class="table-responsive mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>Breakpoint specific</h3>
+        <h3>-sm</h3>
+        <section class="table-responsive-sm mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>-md</h3>
+        <section class="table-responsive-md mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>-lg</h3>
+        <section class="table-responsive-lg mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>-xl</h3>
+        <section class="table-responsive-xl mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <h3>-xxl</h3>
+        <section class="table-responsive-xxl mx-auto p-2 bg-white rounded">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Yonko</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Fruta del Diablo</th>
+                    <th scope="col">Tripulación</th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Shanks el Pelirrojo</td>
+                    <td>No tiene</td>
+                    <td>Piratas Pelirrojos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Charlotte Linlin</td>
+                    <td>Soru Soru no Mi</td>
+                    <td> Piratas de Big Mom</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Kaido</td>
+                    <td>Uo Uo no Mi, Modelo: Seiryu</td>
+                    <td>Bestias Piratas</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Edward Newgate</td>
+                    <td>Gura Gura no Mi</td>
+                    <td>Piratas de Barbablanca</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="mx-auto p-2">
+            <a href="../index.html" class="btn btn-primary">Atras</a>
+        </section>
+        </section>
+    
+    </section>
+</body>
+</html>

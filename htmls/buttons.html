@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>Buttons</h1>
+        </section>
+        <h2 class="text-info">How it works</h2>
+        <p>Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</p>
+        <h2 class="text-info">Examples</h2>
+        <p>Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+
+            <button type="button" class="btn btn-link">Link</button>
+        </section>
+        <h2 class="text-info">Button tags</h2>
+        <p>The .btn classes are designed to be used with the button element. However, you can also use these classes on a or input elements (though some browsers may apply a slightly different rendering).</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+            <button class="btn btn-primary" type="submit">Button</button>
+            <input class="btn btn-primary" type="button" value="Input">
+            <input class="btn btn-primary" type="submit" value="Submit">
+            <input class="btn btn-primary" type="reset" value="Reset">
+        </section>
+        <h2 class="text-info">Outline buttons</h2>
+        <p>In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the .btn-outline-* ones to remove all background images and colors on any button.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+        </section>
+        <h2 class="text-info">Sizes</h2>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary btn-sm">Small button</button>
+            <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+        </section>
+        <p>You can even roll your own custom sizing with CSS variables:</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Custom button
+            </button>
+        </section>
+        <h2 class="text-info">Disabled state</h2>
+        <p>Make buttons look inactive by adding the disabled boolean attribute to any button element. Disabled buttons have pointer-events: none applied to, preventing hover and active states from triggering.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary" disabled>Primary button</button>
+            <button type="button" class="btn btn-secondary" disabled>Button</button>
+            <button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
+            <button type="button" class="btn btn-outline-secondary" disabled>Button</button>
+        </section>
+        <h2 class="text-info">Block buttons</h2>
+        <p>Create responsive stacks of full-width, “block buttons” like those in Bootstrap 4 with a mix of our display and gap utilities. By using utilities instead of button specific classes, we have much greater control over spacing, alignment, and responsive behaviors.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-primary" type="button">Button</button>
+              </section>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="d-grid gap-2 d-md-block">
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-primary" type="button">Button</button>
+              </section>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-primary" type="button">Button</button>
+              </section>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary me-md-2" type="button">Button</button>
+                <button class="btn btn-primary" type="button">Button</button>
+              </section>
+        </section>
+        <h2 class="text-info">Button plugin</h2>
+        <p>The button plugin allows you to create simple on/off toggle buttons.</p>
+        <h2 class="text-info">Toggle states</h2>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary" data-bs-toggle="button">Toggle button</button>
+            <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+            <button type="button" class="btn btn-primary" disabled data-bs-toggle="button">Disabled toggle button</button>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">Toggle link</a>
+            <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle link</a>
+            <a class="btn btn-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button">Disabled toggle link</a>
+        </section>
+
+
+
+        <section class="mx-auto p-2">
+            <a href="../index.html" class="btn btn-primary">Atras</a>
+        </section>
+    </section>
+    
+</body>
+</html>

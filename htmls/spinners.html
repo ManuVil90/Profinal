@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinners</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>Spinners</h1>
+        </section>
+        <h2 class="text-info">How it works</h2>
+        <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</p>
+        <h2 class="text-info">Border spinner</h2>
+        <p>Use the border spinners for a lightweight loading indicator.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+        </section>
+        <h2 class="text-info">Colors</h2>
+        <p>The border spinner uses currentColor for its border-color, meaning you can customize the color with text color utilities. You can use any of our text color utilities on the standard spinner.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-border text-secondary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-border text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-border text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-border text-warning" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-border text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-border text-dark" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+        </section>
+        <h2 class="text-info">Growing spinner</h2>
+        <p>If you don’t fancy a border spinner, switch to the grow spinner. While it doesn’t technically spin, it does repeatedly grow!</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="spinner-grow" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+        </section>
+        <p>Once again, this spinner is built with currentColor, so you can easily change its appearance with text color utilities. Here it is in blue, along with the supported variants.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="spinner-grow text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-grow text-secondary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-grow text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-grow text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-grow text-warning" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-grow text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-grow text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-grow text-dark" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+        </section>
+        <h2 class="text-info">Alignment</h2>
+        <p>Spinners in Bootstrap are built with rems, currentColor, and display: inline-flex. This means they can easily be resized, recolored, and quickly aligned.</p>
+        <h2 class="text-info">Margin</h2>
+        <p>Use margin utilities like .m-5 for easy spacing.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="spinner-border m-5" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+        </section>
+        <h2 class="text-info">Placement</h2>
+        <p>Use flexbox utilities, float utilities, or text alignment utilities to place spinners exactly where you need them in any situation.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="d-flex justify-content-center">
+                <section class="spinner-border" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </section>
+              </section>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="d-flex align-items-center">
+                <strong>Loading...</strong>
+                <section class="spinner-border ms-auto" role="status" aria-hidden="true"></section>
+              </section>
+        </section>
+        <h2 class="text-info">Floats</h2>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="clearfix">
+                <section class="spinner-border float-end" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Text align</h2>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="text-center">
+                <section class="spinner-border" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Size</h2>
+        <p>Add .spinner-border-sm and .spinner-grow-sm to make a smaller spinner that can quickly be used within other components.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="spinner-border spinner-border-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-grow spinner-grow-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+        </section>
+        <p>Or, use custom CSS or inline styles to change the dimensions as needed.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+              <section class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </section>
+        </section>
+        <h2 class="text-info">Buttons</h2>
+        <p>Use spinners within buttons to indicate an action is currently processing or taking place. You may also swap the text out of the spinner element and utilize button text as needed.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                <span class="visually-hidden">Loading...</span>
+              </button>
+              <button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                <span class="visually-hidden">Loading...</span>
+              </button>
+              <button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+        </section>
+        <section class="mx-auto p-2">
+            <a href="../index.html" class="btn btn-primary">Atras</a>
+        </section>
+
+
+
+
+    </section>
+    
+</body>
+</html>

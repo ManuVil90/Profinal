@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toasts</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>Toasts</h1>
+        </section>
+        <h2 class="text-info">How it works</h2>
+        <p>Things to know when using the toast plugin:</p>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Toasts are opt-in for performance reasons, so you must initialize them yourself.</li>
+            <li class="list-group-item">Toasts will automatically hide if you do not specify autohide: false.</li>
+          </ul>
+        <h2 class="text-info">Examples</h2>
+        <h2 class="text-info">Basic</h2>
+        <p>To encourage extensible and predictable toasts, we recommend a header and body. Toast headers use display: flex, allowing easy alignment of content thanks to our margin and flexbox utilities.
+
+            Toasts are as flexible as you need and have very little required markup. At a minimum, we require a single element to contain your “toasted” content and strongly encourage a dismiss button.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary" id="liveToastBtn">Mostrar el toast en vivo</button>
+
+            <section id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <section class="toast-header">
+                  <img src="../asserts/logopagina.png" class="rounded me-2" alt="...">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small>11 mins ago</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </section>
+                <section class="toast-body">
+                  Hello, world! This is a toast message. Primer
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Live example</h2>
+        <p>Click the button below to show a toast (positioned with our utilities in the lower right corner) that has been hidden by default.</p>
+        <section>
+            <button type="button" class="btn btn-primary" id="liveToastBtnEjUno">Show live toast</button>
+            <section class="toast-container position-fixed bottom-0 end-0 p-3">
+                <section id="liveToastEjUno" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <section class="toast-header">
+                    <img src="../asserts/logopagina.png" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </section>
+                  <section class="toast-body">
+                    Hello, world! This is a toast message. Segundo
+                  </section>
+                </section>
+              </section>
+            
+        </section>
+        <h2 class="text-info">Translucent </h2>
+        <p>Toasts are slightly translucent to blend in with what’s below them.</p>
+        <section>
+            <button type="button" class="btn btn-primary" id="liveToastBtnEjDos">Mostrar el toast en vivo</button>
+            <section id="liveToastEjDos" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <section class="toast-header">
+                  <img src="../asserts/logopagina.png" class="rounded me-2" alt="...">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small class="text-body-secondary">11 mins ago</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </section>
+                <section class="toast-body">
+                  Hello, world! This is a toast message.
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Stacking</h2>
+        <p>You can stack toasts by wrapping them in a toast container, which will vertically add some spacing.</p>
+        <section>
+            <button type="button" class="btn btn-primary" id="liveToastBtnEjTres">Mostrar el toast en vivo</button>
+            <section class="toast-container position-static">
+                <section id="liveToastEjTres" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <section class="toast-header">
+                    <img src="../asserts/logopagina.png" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small class="text-body-secondary">just now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </section>
+                <section class="toast-body">
+                    See? Just like this.
+                </section>
+                </section>
+            
+                <section id="liveToastEjTres" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <section class="toast-header">
+                    <img src="../asserts/logopagina.png" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small class="text-body-secondary">2 seconds ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </section>
+                <section class="toast-body">
+                    Heads up, toasts will stack automatically
+                </section>
+                </section>
+            </section>
+        </section>
+        <h2 class="text-info">Custom content</h2>
+        <p>Customize your toasts by removing sub-components, tweaking them with utilities, or by adding your own markup. Here we’ve created a simpler toast by removing the default .toast-header, adding a custom hide icon from Bootstrap Icons, and using some flexbox utilities to adjust the layout.</p>
+        <p>Alternatively, you can also add additional controls and components to toasts.</p>
+        <section>
+            <button type="button" class="btn btn-primary" id="liveToastBtnEjCuatro">Mostrar el toast en vivo</button>
+            <section id="liveToastEjCuatro" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <section class="toast-body">
+                  Hola mundo, el toast se puede personalziar
+                  <section class="mt-2 pt-2 border-top">
+                    <button type="button" class="btn btn-primary btn-sm">Take action</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Placement</h2>
+        <p>Place toasts with custom CSS as you need them. The top right is often used for notifications, as is the top middle. If you’re only ever going to show one toast at a time, put the positioning styles right on the .toast.</p>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">"top-0 start-0" for Top left</li>
+            <li class="list-group-item">"top-0 start-50 translate-middle-x" for Top center</li>
+            <li class="list-group-item">top-0 end-0" for Top right</li>
+            <li class="list-group-item">"top-50 start-0 translate-middle-y" for Middle left</li>
+            <li class="list-group-item">"top-50 start-50 translate-middle" for Middle center</li>
+            <li class="list-group-item">"top-50 end-0 translate-middle-y" for Middle right</li>
+            <li class="list-group-item">"bottom-0 start-0" for Bottom left</li>
+            <li class="list-group-item">"bottom-0 start-50 translate-middle-x" for Bottom center</li>
+            <li class="list-group-item">"bottom-0 end-0" for Bottom right</li>
+          </ul>
+        <h2 class="text-info">Example Top center</h2>
+        <section>
+            <button type="button" class="btn btn-primary" id="liveToastBtnEjCinco">Mostrar el toast top center</button>
+              <section class="toast-container top-0 start-50 translate-middle-x">
+                <section id="liveToastEjCinco" class="toast">
+                  <section class="toast-header">
+                    <img src="../asserts/logopagina.png" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                  </section>
+                  <section class="toast-body">
+                    Hello, world! This is a toast message.
+                  </section>
+                </section>
+            </section>
+
+        </section>
+        <p>You can also get fancy with flexbox utilities to align toasts horizontally and/or vertically.</p>
+        <section>
+            <button type="button" class="btn btn-primary" id="liveToastBtnEjSeis">Mostrar con flexbox</button>
+            <section aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100">
+                <section id="liveToastEjSeis" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <section class="toast-header">
+                    <img src="../asserts/logopagina.png" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </section>
+                  <section class="toast-body">
+                    Hello, world! This is a toast message.
+                  </section>
+                </section>
+              </section>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section class="mx-auto p-2">
+            <a href="../index.html" class="btn btn-primary">Atras</a>
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="../js/script.js"></script>
+    
+    
+</body>
+</html>

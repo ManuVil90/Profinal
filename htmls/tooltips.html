@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltips</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>Tooltips</h1>
+        </section>
+        <h2 class="text-info">How it works</h2>
+        <p>Things to know when using the tooltip plugin:</p>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Tooltips rely on the third party library Popper for positioning. You must include popper.min.js before bootstrap.js, or use one bootstrap.bundle.min.js which contains Popper.</li>
+            <li class="list-group-item">Tooltips are opt-in for performance reasons, so you must initialize them yourself.</li>
+            <li class="list-group-item">Tooltips with zero-length titles are never displayed.</li>
+            <li class="list-group-item">Specify container: 'body' to avoid rendering problems in more complex components (like our input groups, button groups, etc).</li>
+            <li class="list-group-item">Triggering tooltips on hidden elements will not work.</li>
+            <li class="list-group-item">When triggered from hyperlinks that span multiple lines, tooltips will be centered. Use white-space: nowrap; on your <a>s to avoid this behavior.</li>
+            <li class="list-group-item">TTooltips must be hidden before their corresponding elements have been removed from the DOM.</li>
+            <li class="list-group-item">Tooltips can be triggered thanks to an element inside a shadow DOM.</li> 
+          </ul>
+        <h2 class="text-info">Example</h2>
+        <h2 class="text-info">Enable tooltips</h2>
+        <p>As mentioned above, you must initialize tooltips before they can be used. One way to initialize all tooltips on a page would be to select them by their data-bs-toggle attribute, like so:</p>
+        <p>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</p>
+        <h2 class="text-info">Tooltips on links</h2>
+        <section>
+            <p class="muted">Placeholder text to demonstrate some <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip">inline links</a> with tooltips. This is now just filler, no killer. Content placed here just to mimic the presence of <a href="#" data-bs-toggle="tooltip" data-bs-title="Another tooltip">real text</a>. And all that just to give you an idea of how tooltips would look when used in real-world situations. So hopefully you've now seen how <a href="#" data-bs-toggle="tooltip" data-bs-title="Another one here too">these tooltips on links</a> can work in practice, once you use them on <a href="#" data-bs-toggle="tooltip" data-bs-title="The last tip!">your own</a> site or project.</p>
+        </section>
+        <h2 class="text-info">Custom tooltips</h2>
+        <p>You can customize the appearance of tooltips using CSS variables. We set a custom class with data-bs-custom-class="custom-tooltip" to scope our custom appearance and use it to override a local CSS variable.</p>
+        <section>
+            <button type="button" class="btn btn-secondary"
+                data-bs-toggle="tooltip" data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip"
+                data-bs-title="This top tooltip is themed via CSS variables.">
+            Custom tooltip
+            </button>
+        </section>
+        <h2 class="text-info">Directions</h2>
+        <p>Hover over the buttons below to see the four tooltips directions: top, right, bottom, and left. Directions are mirrored when using Bootstrap in RTL.</p>
+        <section>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+                Tooltip on top
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+                Tooltip on right
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+                Tooltip on bottom
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
+                Tooltip on left
+              </button>
+        </section>
+        <p>With an SVG</p>
+        <a href="#" class="d-inline-block" data-bs-toggle="tooltip" data-bs-title="Default tooltip">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100">
+              <rect width="100%" height="100%" fill="#563d7c"></rect>
+              <circle cx="50" cy="50" r="30" fill="#007bff"></circle>
+            </svg>
+          </a>
+        <h2 class="text-info">Disabled elements</h2>
+        <p>Elements with the disabled attribute aren’t interactive, meaning users cannot focus, hover, or click them to trigger a tooltip (or popover). As a workaround, you’ll want to trigger the tooltip from a wrapper div or span, ideally made keyboard-focusable using tabindex="0".</p>
+        <section>
+            <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" data-bs-title="Disabled tooltip">
+                <button class="btn btn-primary" type="button" disabled>Disabled button</button>
+              </span>
+        </section>
+        <section class="mx-auto p-2">
+            <a href="../index.html" class="btn btn-primary">Atras</a>
+        </section>
+    </section>
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>

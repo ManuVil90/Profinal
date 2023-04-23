@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>Modal</h1>
+        </section>
+        <h2 class="text-info">Live demo</h2>
+        <p>Toggle a working modal demo by clicking the button below. It will slide down and fade in from the top of the page.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
+            <section class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <section class="modal-dialog">
+                  <section class="modal-content">
+                    <section class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </section>
+                    <section class="modal-body">
+                      ...
+                    </section>
+                    <section class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </section>
+                  </section>
+                </section>
+              </section>              
+        </section>
+        <h2 class="text-info">Static backdrop</h2>
+        <p>When backdrop is set to static, the modal will not close when clicking outside of it. Click the button below to try it.</p>
+        <section>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Launch static backdrop modal
+              </button>
+              <section class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <section class="modal-dialog">
+                  <section class="modal-content">
+                    <section class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </section>
+                    <section class="modal-body">
+                      Hola mundo
+                    </section>
+                    <section class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </section>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Scrolling long content</h2>
+        <p>When modals become too long for the user’s viewport or device, they scroll independent of the page itself. Try the demo below to see what we mean.</p>
+        <p>You can also create a scrollable modal that allows scroll the modal body by adding .modal-dialog-scrollable to .modal-dialog.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalDos">
+            Scrolling long content
+          </button>
+          <section class="modal fade" id="exampleModalDos" tabindex="-1" aria-labelledby="exampleModalLabelDos" aria-hidden="true">
+              <section class="modal-dialog modal-dialog-scrollable">
+                <section class="modal-content">
+                  <section class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabelDos">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </section>
+                  <section class="modal-body">
+                    El cielo resplandece a mi alrededor (alrededor),
+                    al volar destellos brillan en las nubes sin fin,
+                    con libertad puedes cruzar hoy el cielo azul (el cielo azul)
+
+                    la verdad huye a un golpe de pronto en ti,
+                    como si un volcán hiciera una erupción,
+                    derrite un gran glaciar,
+                    podrás ver de cerca un gran dragón,
+                    Chala Head-Chala,
+                    no importa lo que suceda,
+                    siempre el ánimo mantendré,
+                    Chala Head-Chala,
+                    vibrante mi corazón siente emoción,
+                    haré una genkidama,
+                    Chala Head-Chala,
+                    no pienses nada sólo escucha,
+                    sueño está ya en tu corazón,
+                    Chala Head-Chala,
+                    no importa lo que suceda,
+                    porque es el día de hoooooooy.
+                  </section>
+                  <section class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </section>
+                </section>
+              </section>
+            </section>              
+        </section>
+        <h2 class="text-info">Vertically centered</h2>
+        <p>Add .modal-dialog-centered to .modal-dialog to vertically center the modal.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalTres">
+            Vertically centered
+          </button>
+          <section class="modal fade" id="exampleModalTres" tabindex="-1" aria-labelledby="exampleModalLabelTres" aria-hidden="true">
+              <section class="modal-dialog modal-dialog-centered">
+                <section class="modal-content">
+                  <section class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabelTres">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </section>
+                  <section class="modal-body">
+                    Hola mundo
+                  </section>
+                  <section class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </section>
+                </section>
+              </section>
+            </section>              
+        </section>
+        <h2 class="text-info">Tooltips and popovers</h2>
+        <p>Tooltips and popovers can be placed within modals as needed. When modals are closed, any tooltips and popovers within are also automatically dismissed.</p>
+        <section>
+          <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalUno">
+              Tooltips and popovers
+            </button>
+            <section class="modal fade" id="exampleModalUno" tabindex="-1" aria-labelledby="exampleModalLabelUno" aria-hidden="true">
+                <section class="modal-dialog">
+                  <section class="modal-content">
+                    <section class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabelUno">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </section>
+                    <section class="modal-body">
+                      <h2 class="fs-5">Popover in a modal</h2>
+                      <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+                      <hr>
+                      <h2 class="fs-5">Tooltips in a modal</h2>
+                      <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+                    </section>                    
+                    <section class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </section>
+                  </section>
+                </section>
+              </section>              
+        </section>
+        <h2 class="text-info">Using the grid</h2>
+        <p>Utilize the Bootstrap grid system within a modal by nesting .container-fluid within the .modal-body. Then, use the normal grid system classes as you would anywhere else.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCuatro">
+            Using the grid
+          </button>
+          <section class="modal fade" id="exampleModalCuatro" tabindex="-1" aria-labelledby="exampleModalLabelCuatro" aria-hidden="true">
+              <section class="modal-dialog">
+                <section class="modal-content">
+                  <section class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabelCuatro">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </section>
+                  <section class="modal-body">
+                    <section class="container-fluid">
+                      <section class="row">
+                        <section class="col-md-4">.col-md-4</section>
+                        <section class="col-md-4 ms-auto">.col-md-4 .ms-auto</section>
+                      </section>
+                      <section class="row">
+                        <section class="col-md-3 ms-auto">.col-md-3 .ms-auto</section>
+                        <section class="col-md-2 ms-auto">.col-md-2 .ms-auto</section>
+                      </section>
+                      <section class="row">
+                        <section class="col-md-6 ms-auto">.col-md-6 .ms-auto</section>
+                      </section>
+                      <section class="row">
+                        <section class="col-sm-9">
+                          Level 1: .col-sm-9
+                          <section class="row">
+                            <section class="col-8 col-sm-6">
+                              Level 2: .col-8 .col-sm-6
+                            </section>
+                            <section class="col-4 col-sm-6">
+                              Level 2: .col-4 .col-sm-6
+                            </section>
+                          </section>
+                        </section>
+                      </section>
+                    </section>
+                  </section>                  
+                  <section class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </section>
+                </section>
+              </section>
+            </section>              
+        </section>
+        </section>
+        <h2 class="text-info">Toggle between modals</h2>
+        <p>Toggle between multiple modals with some clever placement of the data-bs-target and data-bs-toggle attributes. For example, you could toggle a password reset modal from within an already open sign in modal. Please note multiple modals cannot be open at the same time—this method simply toggles between two separate modals.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+          <section class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <section class="modal-dialog modal-dialog-centered">
+              <section class="modal-content">
+                <section class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </section>
+                <section class="modal-body">
+                  Show a second modal and hide this one with the button below.
+                </section>
+                <section class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                </section>
+              </section>
+            </section>
+          </section>
+          <section class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <section class="modal-dialog modal-dialog-centered">
+              <section class="modal-content">
+                <section class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </section>
+                <section class="modal-body">
+                  Hide this modal and show the first with the button below.
+                </section>
+                <section class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                </section>
+              </section>
+            </section>
+          </section>
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Open first modal</button>
+        </section>
+        <h2 class="text-info">Optional sizes</h2>
+        <p>Modals have three optional sizes, available via modifier classes to be placed on a .modal-dialog. These sizes kick in at certain breakpoints to avoid horizontal scrollbars on narrower viewports.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Size</th>
+                <th scope="col">Class</th>
+                <th scope="col">Modal max-width</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Small</td>
+                <td>modal-sm</td>
+                <td>300px</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Default</td>
+                <td>None</td>
+                <td>500px</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Large</td>
+                <td>modal-lg</td>
+                <td>800px</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Extra large</td>
+                <td>modal-xl</td>
+                <td>1140px</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <p>Our default modal without modifier class constitutes the “medium” size modal.</p>
+        <p>class="modal-dialog modal-xl"</p>
+        <p>class="modal-dialog modal-lg"</p>
+        <p>class="modal-dialog modal-sm"</p>
+        <h2 class="text-info">Fullscreen Modal</h2>
+        <section class="mx-auto p-2 bg-white rounded">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Class</th>
+                <th scope="col">Availability</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>modal-fullscreen</td>
+                <td>Always</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>modal-fullscreen-sm-down</td>
+                <td>576px</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>modal-fullscreen-md-down</td>
+                <td>768px</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>modal-fullscreen-lg-down</td>
+                <td>992px</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>modal-fullscreen-xl-down</td>
+                <td>1200px</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>modal-fullscreen-xxl-down</td>
+                <td>1400px</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <p>modal-dialog modal-fullscreen-sm-down</p>
+
+
+
+        <section class="mx-auto p-2">
+            <a href="../index.html" class="btn btn-primary">Atras</a>
+        </section>
+    </section>
+    
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

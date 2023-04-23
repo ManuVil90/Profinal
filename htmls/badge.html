@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>Badge</h1>
+        </section>
+        <h2 class="text-info">How it works</h2>
+        <p>Documentation and examples for badges, our small count and labeling component.</p>
+        <h2 class="text-info">Examples</h2>
+        <p>Badges scale to match the size of the immediate parent element by using relative font sizing and em units. As of v5, badges no longer have focus or hover styles for links.</p>
+        <h2 class="text-info">Headings</h2>
+        <section class="mx-auto p-2 bg-white rounded">
+            <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+            <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+            <h3>Example heading <span class="badge bg-secondary">New</span></h3>
+            <h4>Example heading <span class="badge bg-secondary">New</span></h4>
+            <h5>Example heading <span class="badge bg-secondary">New</span></h5>
+            <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+        </section>
+        <h2 class="text-info">Buttons</h2>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary">
+                Notifications <span class="badge text-bg-secondary">4</span>
+              </button>
+        </section>
+        <h2 class="text-info">Positioned</h2>
+        <p>Use utilities to modify a .badge and position it in the corner of a link or button.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary position-relative">
+                Inbox
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+        </section>
+        <p>You can also replace the .badge class with a few more utilities without a count for a more generic indicator.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <button type="button" class="btn btn-primary position-relative">
+                Profile
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                  <span class="visually-hidden">New alerts</span>
+                </span>
+              </button>
+        </section>
+        <h2 class="text-info">Background colors</h2>
+        <p>Set a background-color with contrasting foreground color with our .text-bg-{color} helpers. Previously it was required to manually pair your choice of .text-{color} and .bg-{color} utilities for styling, which you still may use if you prefer.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <span class="badge text-bg-primary">Primary</span>
+            <span class="badge text-bg-secondary">Secondary</span>
+            <span class="badge text-bg-success">Success</span>
+            <span class="badge text-bg-danger">Danger</span>
+            <span class="badge text-bg-warning">Warning</span>
+            <span class="badge text-bg-info">Info</span>
+            <span class="badge text-bg-light">Light</span>
+            <span class="badge text-bg-dark">Dark</span>
+        </section>
+        <h2 class="text-info">Pill badges</h2>
+        <p>Use the .rounded-pill utility class to make badges more rounded with a larger border-radius.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <span class="badge rounded-pill text-bg-primary">Primary</span>
+            <span class="badge rounded-pill text-bg-secondary">Secondary</span>
+            <span class="badge rounded-pill text-bg-success">Success</span>
+            <span class="badge rounded-pill text-bg-danger">Danger</span>
+            <span class="badge rounded-pill text-bg-warning">Warning</span>
+            <span class="badge rounded-pill text-bg-info">Info</span>
+            <span class="badge rounded-pill text-bg-light">Light</span>
+            <span class="badge rounded-pill text-bg-dark">Dark</span>
+        </section>
+        <section class="mx-auto p-2">
+            <a href="../index.html" class="btn btn-primary">Atras</a>
+        </section>
+
+    </section>
+    
+</body>
+</html>

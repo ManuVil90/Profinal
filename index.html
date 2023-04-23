@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="container">
+  <nav class="navbar navbar-expand-sm bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+    <section class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="d-none d-sm-block" src="./asserts/logopagina.png" width="50" alt="logopagina">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./asserts/logopagina.png" width="50" alt="logopagina">
+      </button>
+      <section class="collapse navbar-collapse" id="navbar-toggler">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Proyecto Final</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Temas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./htmls/accordion.html">1. Accordion</a></li>
+              <li><a class="dropdown-item" href="./htmls/alerts.html">2. Alerts</a></li>
+              <li><a class="dropdown-item" href="./htmls/badge.html">3.1. Badge</a></li>
+              <li><a class="dropdown-item" href="./htmls/spinners.html">3.2. Spinners</a></li> 
+              <li><a class="dropdown-item" href="./htmls/breadcrumb.html">4.1. Breadcrumb</a></li> 
+              <li><a class="dropdown-item" href="./htmls/pagination.html">4.2. Pagination</a></li>
+              <li><a class="dropdown-item" href="./htmls/buttons.html">5. Buttons</a></li>
+              <li><a class="dropdown-item" href="./htmls/buttongroup.html">5.2. Button group</a></li>
+              <li><a class="dropdown-item" href="./htmls/closebutton.html">5.3. Close button</a></li>
+              <li><a class="dropdown-item" href="./htmls/card.html">6. Card</a></li>
+              <li><a class="dropdown-item" href="./htmls/carousel.html">7. Carousel</a></li>
+              <li><a class="dropdown-item" href="./htmls/collapse.html">8. Collapse</a></li>
+              <li><a class="dropdown-item" href="./htmls/dropdowns.html">9. Dropdowns</a></li>
+              <li><a class="dropdown-item" href="./htmls/closebutton.html">10. List group</a></li>
+              <li><a class="dropdown-item" href="./htmls/modal.html">11. Modal</a></li>
+              <li><a class="dropdown-item" href="./htmls/navs&tabs.html">12. Navs & tabs</a></li>
+              <li><a class="dropdown-item" href="./htmls/navbar.html">13. Navbar</a></li>
+              <li><a class="dropdown-item" href="./htmls/offcanvas.html">14. Offcanvas</a></li> 
+              <li><a class="dropdown-item" href="./htmls/placeholders.html">15. Placeholders</a></li>
+              <li><a class="dropdown-item" href="./htmls/popovers.html">16. Popovers</a></li>
+              <li><a class="dropdown-item" href="./htmls/progress.html">17. Progress</a></li>
+              <li><a class="dropdown-item" href="./htmls/scrollspy.html">18. Scrollspy</a></li>
+              <li><a class="dropdown-item" href="./htmls/toasts.html">19. Toasts</a></li>
+              <li><a class="dropdown-item" href="./htmls/tooltips.html">20. Tooltips</a></li>
+              <li><a class="dropdown-item" href="./htmls/table.html">21. Tables</a></li>
+              <li><a class="dropdown-item" href="./htmls/forms.html">22. Forms</a></li>
+            </ul>
+          </li>
+      </section>
+    </section>
+  </nav>
+  <section>
+    <section class="accordion accordion-flush" id="accordionFlushExample">
+      <section class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingManu">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseManu" aria-expanded="false" aria-controls="flush-collapseManu">
+            Personal information 
+          </button>
+        </h2>
+        <section id="flush-collapseManu" class="accordion-collapse collapse" aria-labelledby="flush-headingManu" data-bs-parent="#accordionFlushExample">
+          <section class="d-flex justify-content-betwee">
+          <section class="accordion-body">
+            Name: Jose Manuel Villar Barrantes
+            Date of birth: March 15
+            Hobbies: Video games and anime</section>
+        </section>
+      </section>
+    <section class="accordion accordion-flush" id="accordionFlushExample">
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                1. Accordion
+            </button>
+          </h2>
+          <section id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">The accordion uses collapse internally to make it collapsible. To render an accordion that’s expanded, add the .open class on the .accordion.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/accordion.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              2. Alerts
+            </button>
+          </h2>
+          <section id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/alerts.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              3. Notifications
+            </button>
+          </h2>
+          <section id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">A notification is a message that is displayed to provide the user with reminders, messages from other people, and other information. It's divided in:</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/badge.html" class="btn btn-primary">3.1. Badge</a></section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/spinners.html" class="btn btn-primary">3.2. Spinners</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              3.1. Badge
+            </button>
+          </h2>
+          <section id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Documentation and examples for badges, our small count and labeling component</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/badge.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              3.2. Spinners
+            </button>
+          </h2>
+          <section id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/spinners.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              4. Information
+            </button>
+          </h2>
+          <section id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">The way we have to make the user go from one page to another or move from one part of the page to another part.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/breadcrumb.html" class="btn btn-primary">4.1. Breadcrumb</a></section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/pagination.html" class="btn btn-primary">4.2. Pagination</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              4.1. Breadcrumb
+            </button>
+          </h2>
+          <section id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/breadcrumb.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+              4.2. Pagination
+            </button>
+          </h2>
+          <section id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Documentation and examples for showing pagination to indicate a series of related content exists across multiple pages.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/pagination.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingNine">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+              5. Buttons
+            </button>
+          </h2>
+          <section id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/buttons.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+              5.2. Button group
+            </button>
+          </h2>
+          <section id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Group a series of buttons together on a single line or stack them in a vertical column.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/buttongroup.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingEleven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+              5.3. Close button
+            </button>
+          </h2>
+          <section id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">A generic close button for dismissing content like modals and alerts.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/closebutton.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwelve">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+              6. Card
+            </button>
+          </h2>
+          <section id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/card.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThirteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+              7. Carousel
+            </button>
+          </h2>
+          <section id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">A slideshow component for cycling through elements—images or slides of text—like a carousel.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/carousel.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFourteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+              8. Collapse
+            </button>
+          </h2>
+          <section id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Toggle the visibility of content across your project with a few classes and our JavaScript plugins.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/collapse.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingfifteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifteen" aria-expanded="false" aria-controls="flush-collapsefifteen">
+              9. Dropdowns
+            </button>
+          </h2>
+          <section id="flush-collapsefifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingfifteen" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/dropdowns.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSixteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
+              10. List group
+            </button>
+          </h2>
+          <section id="flush-collapseSixteen" class="accordion-collapse collapse" aria-labelledby="flush-headingSixteen" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/listGroup.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSeventeen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeventeen" aria-expanded="false" aria-controls="flush-collapseSeventeen">
+              11. Modal
+            </button>
+          </h2>
+          <section id="flush-collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="flush-headingSeventeen" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/modal.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingEighteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEighteen" aria-expanded="false" aria-controls="flush-collapseEighteen">
+              12. Navs & tabs
+            </button>
+          </h2>
+          <section id="flush-collapseEighteen" class="accordion-collapse collapse" aria-labelledby="flush-headingEighteen" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Documentation and examples for how to use Bootstrap’s included navigation components.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/navs&tabs.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingNineteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNineteen" aria-expanded="false" aria-controls="flush-collapseNineteen">
+              13. Navbar
+            </button>
+          </h2>
+          <section id="flush-collapseNineteen" class="accordion-collapse collapse" aria-labelledby="flush-headingNineteen" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/navbar.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwenty">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwenty" aria-expanded="false" aria-controls="flush-collapseTwenty">
+                14. Offcanvas
+            </button>
+          </h2>
+          <section id="flush-collapseTwenty" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Build hidden sidebars into your project for navigation, shopping carts, and more with a few classes and our JavaScript plugin.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/offcanvas.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwentyone">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyone" aria-expanded="false" aria-controls="flush-collapseTwentyone">
+              15. Placeholders
+            </button>
+          </h2>
+          <section id="flush-collapseTwentyone" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyone" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Use loading placeholders for your components or pages to indicate something may still be loading.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/placeholders.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwentyTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyTwo" aria-expanded="false" aria-controls="flush-collapseTwentyTwo">
+              16. Popovers
+            </button>
+          </h2>
+          <section id="flush-collapseTwentyTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyTwo" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Documentation and examples for adding Bootstrap popovers, like those found in iOS, to any element on your site.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/popovers.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwentyThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyThree" aria-expanded="false" aria-controls="flush-collapseTwentyThree">
+              17. Progress
+            </button>
+          </h2>
+          <section id="flush-collapseTwentyThree" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyThree" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Documentation and examples for using Bootstrap custom progress bars featuring support for stacked bars, animated backgrounds, and text labels.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/progress.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwentyFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyFour" aria-expanded="false" aria-controls="flush-collapseTwentyFour">
+              18. Scrollspy
+            </button>
+          </h2>
+          <section id="flush-collapseTwentyFour" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyFour" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Automatically update Bootstrap navigation or list group components based on scroll position to indicate which link is currently active in the viewport.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/scrollspy.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwentyFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyFive" aria-expanded="false" aria-controls="flush-collapseTwentyFive">
+              19. Toasts
+            </button>
+          </h2>
+          <section id="flush-collapseTwentyFive" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyFive" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/toasts.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwentySix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentySix" aria-expanded="false" aria-controls="flush-collapseTwentySix">
+              20. Tooltips
+            </button>
+          </h2>
+          <section id="flush-collapseTwentySix" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentySix" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Documentation and examples for adding custom Bootstrap tooltips with CSS and JavaScript using CSS3 for animations and data-bs-attributes for local title storage.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/tooltips.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwentySeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentySeven" aria-expanded="false" aria-controls="flush-collapseTwentySeven">
+              21. Tables
+            </button>
+          </h2>
+          <section id="flush-collapseTwentySeven" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentySeven" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Documentation and examples for opt-in styling of tables (given their prevalent use in JavaScript plugins) with Bootstrap.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/table.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwentyEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentyEight" aria-expanded="false" aria-controls="flush-collapseTwentyEight">
+              22. Forms
+            </button>
+          </h2>
+          <section id="flush-collapseTwentyEight" class="accordion-collapse collapse" aria-labelledby="flush-headingTwentyEight" data-bs-parent="#accordionFlushExample">
+            <section class="d-flex justify-content-betwee">
+            <section class="accordion-body">Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.</section>
+            <section class="mx-auto p-2 bg-white"><a href="./htmls/forms.html" class="btn btn-primary">Learn more</a></section>
+            </section>
+          </section>
+        </section>
+  </section>
+</body>
+</html>

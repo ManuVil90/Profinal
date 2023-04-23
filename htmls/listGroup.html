@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List group</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>List group</h1>
+        </section>
+        <h2 class="text-info">Basic example</h2>
+        <p>The most basic list group is an unordered list with list items and the proper classes. Build upon it with the options that follow, or with your own CSS as needed.</p>
+        <section  class="mx-auto p-2 bg-white rounded">
+            <ul class="list-group">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+              </ul>
+        </section>
+        <h2 class="text-info">Active items</h2>
+        <p>Add .active to a .list-group-item to indicate the current active selection.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true">An active item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+              </ul>
+        </section>
+        <h2 class="text-info">Disabled items</h2>
+        <p>Add .disabled to a .list-group-item to make it appear disabled. Note that some elements with .disabled will also require custom JavaScript to fully disable their click events (e.g., links).</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <ul class="list-group">
+                <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+              </ul>
+        </section>
+        <h2 class="text-info">Links and buttons</h2>
+        <p>Use "a"s or "button"s to create actionable list group items with hover, disabled, and active states by adding .list-group-item-action. We separate these pseudo-classes to ensure list groups made of non-interactive elements (like "li"s or "section"s) don’t provide a click or tap affordance.
+        Be sure to not use the standard .btn classes here.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                  The current link item
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+                <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+                <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+              </section>
+        </section>
+        <p>With "button"s, you can also make use of the disabled attribute instead of the .disabled class. Sadly, "a"s don’t support the disabled attribute.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="list-group">
+                <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                  The current button
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">A second button item</button>
+                <button type="button" class="list-group-item list-group-item-action">A third button item</button>
+                <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
+                <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
+              </section>
+        </section>
+        <h2 class="text-info">Flush</h2>
+        <p>Add .list-group-flush to remove some borders and rounded corners to render list group items edge-to-edge in a parent container (e.g., cards).</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+              </ul>
+        </section>
+        <h2 class="text-info">Numbered</h2>
+        <p>Add the .list-group-numbered modifier class </p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item">A list item</li>
+                <li class="list-group-item">A list item</li>
+                <li class="list-group-item">A list item</li>
+              </ol>
+        </section>
+        <p>hese work great with custom content as well.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <section class="ms-2 me-auto">
+                    <section class="fw-bold">Subheading</section>
+                    Content for list item
+                  </section>
+                  <span class="badge bg-primary rounded-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <section class="ms-2 me-auto">
+                    <section class="fw-bold">Subheading</section>
+                    Content for list item
+                  </section>
+                  <span class="badge bg-primary rounded-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <section class="ms-2 me-auto">
+                    <section class="fw-bold">Subheading</section>
+                    Content for list item
+                  </section>
+                  <span class="badge bg-primary rounded-pill">14</span>
+                </li>
+              </ol>
+        </section>
+        <h2 class="text-info">Horizontal</h2>
+        <p>Add .list-group-horizontal to change the layout of list group items from vertical to horizontal across all breakpoints. Alternatively, choose a responsive variant .list-group-horizontal-{sm|md|lg|xl|xxl} to make a list group horizontal starting at that breakpoint’s min-width. Currently horizontal list groups cannot be combined with flush list groups.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <ul class="list-group list-group-horizontal-sm">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <ul class="list-group list-group-horizontal-md">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <ul class="list-group list-group-horizontal-lg">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <ul class="list-group list-group-horizontal-xl">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <ul class="list-group list-group-horizontal-xxl">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+        </section>
+        <h2 class="text-info">Variants</h2>
+        <p>Use contextual classes to style list items with a stateful background and color.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <ul class="list-group">
+                <li class="list-group-item">A simple default list group item</li>
+              
+                <li class="list-group-item list-group-item-primary">A simple primary list group item</li>
+                <li class="list-group-item list-group-item-secondary">A simple secondary list group item</li>
+                <li class="list-group-item list-group-item-success">A simple success list group item</li>
+                <li class="list-group-item list-group-item-danger">A simple danger list group item</li>
+                <li class="list-group-item list-group-item-warning">A simple warning list group item</li>
+                <li class="list-group-item list-group-item-info">A simple info list group item</li>
+                <li class="list-group-item list-group-item-light">A simple light list group item</li>
+                <li class="list-group-item list-group-item-dark">A simple dark list group item</li>
+              </ul>
+        </section>
+        <h2 class="text-info">For links and buttons</h2>
+        <p>Contextual classes also work with .list-group-item-action for "a" and "button" elements. Note the addition of the hover styles here not present in the previous example. Also supported is the .active state; apply it to indicate an active selection on a contextual list group item.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">A simple default list group item</a>
+              
+                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+              </section>
+        </section>
+        <h2 class="text-info">With badges</h2>
+        <p>Add badges to any list group item to show unread counts, activity, and more with the help of some utilities.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  A list item
+                  <span class="badge bg-primary rounded-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  A second list item
+                  <span class="badge bg-primary rounded-pill">2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  A third list item
+                  <span class="badge bg-primary rounded-pill">1</span>
+                </li>
+              </ul>
+        </section>
+        <h2 class="text-info">Custom content</h2>
+        <p>Add nearly any HTML within, even for linked list groups like the one below, with the help of flexbox utilities.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                  <section class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small>3 days ago</small>
+                  </section>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small>And some small print.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <section class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-body-secondary">3 days ago</small>
+                  </section>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small class="text-body-secondary">And some muted small print.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <section class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-body-secondary">3 days ago</small>
+                  </section>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small class="text-body-secondary">And some muted small print.</small>
+                </a>
+              </section>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <ul class="list-group">
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                  <label class="form-check-label" for="firstRadio">First radio</label>
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                  <label class="form-check-label" for="secondRadio">Second radio</label>
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+                  <label class="form-check-label" for="thirdRadio">Third radio</label>
+                </li>
+              </ul>
+        </section>
+        <p>You can use .stretched-link on "label"s to make the whole list group item clickable.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <ul class="list-group">
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                  <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                  <label class="form-check-label stretched-link" for="secondCheckboxStretched">Second checkbox</label>
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
+                  <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Third checkbox</label>
+                </li>
+              </ul>
+        </section>
+        <section class="mx-auto p-2">
+            <a href="../index.html" class="btn btn-primary">Atras</a>
+        </section>
+    </section>
+    
+</body>
+</html>

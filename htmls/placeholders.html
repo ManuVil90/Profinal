@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholders</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>Placeholders</h1>
+        </section>
+        <h2 class="text-info">About</h2>
+        <p>Placeholders can be used to enhance the experience of your application. They’re built only with HTML and CSS, meaning you don’t need any JavaScript to create them. You will, however, need some custom JavaScript to toggle their visibility. Their appearance, color, and sizing can be easily customized with our utility classes.</p>
+        <h2 class="text-info">Example</h2>
+        <p>In the example below, we take a typical card component and recreate it with placeholders applied to create a “loading card”. Size and proportions are the same between the two.</p>
+        <section class="mx-auto p-2 rounded bg-white">
+            <section class="card bg-dark">
+                <img src="../asserts/informationCard.png" class="card-img-topclass" alt="...">
+              
+                <section class="card-body">
+                  <h5 class="card-title text-info">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+              </section>
+              
+              <section class="card bg-dark" aria-hidden="true">
+                <img src="../asserts/notificationsCard.png" class="card-img-top" width="450" height="450" alt="...">
+                <section class="card-body">
+                  <h5 class="card-title placeholder-glow">
+                    <span class="placeholder col-6"></span>
+                  </h5>
+                  <p class="card-text placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-6"></span>
+                    <span class="placeholder col-8"></span>
+                  </p>
+                  <a class="btn btn-primary disabled placeholder col-6"></a>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">How it works</h2>
+        <p>Create placeholders with the .placeholder class and a grid column class (e.g., .col-6) to set the width. They can replace the text inside an element or be added as a modifier class to an existing component.
+
+            We apply additional styling to .btns via ::before to ensure the height is respected. You may extend this pattern for other situations as needed, or add a &nbsp; within the element to reflect the height when actual text is rendered in its place</p>
+        <section class="mx-auto p-2 rounded">
+            <p aria-hidden="true">
+                <span class="placeholder col-6"></span>
+              </p>
+              
+              <a class="btn btn-primary disabled placeholder col-4"></a>
+        </section>
+        <h2 class="text-info">Width</h2>
+        <p>You can change the width through grid column classes, width utilities, or inline styles.</p>
+        <section  class="mx-auto p-2 rounded bg-white">
+            <span class="placeholder col-6"></span>
+            <span class="placeholder w-75"></span>
+            <span class="placeholder" style="width: 25%;"></span>
+        </section>
+        <h2 class="text-info">Color</h2>
+        <p>By default, the placeholder uses currentColor. This can be overridden with a custom color or utility class.</p>
+        <section class="mx-auto p-2 rounded bg-white">
+            <span class="placeholder col-12"></span>
+            <span class="placeholder col-12 bg-primary"></span>
+            <span class="placeholder col-12 bg-secondary"></span>
+            <span class="placeholder col-12 bg-success"></span>
+            <span class="placeholder col-12 bg-danger"></span>
+            <span class="placeholder col-12 bg-warning"></span>
+            <span class="placeholder col-12 bg-info"></span>
+            <span class="placeholder col-12 bg-light"></span>
+            <span class="placeholder col-12 bg-dark"></span>
+        </section>
+        <h2 class="text-info">Sizing</h2>
+        <p>The size of .placeholders are based on the typographic style of the parent element. Customize them with sizing modifiers: .placeholder-lg, .placeholder-sm, or .placeholder-xs.</p>
+        <section class="mx-auto p-2 rounded bg-white">
+            <span class="placeholder col-12 placeholder-lg"></span>
+            <span class="placeholder col-12"></span>
+            <span class="placeholder col-12 placeholder-sm"></span>
+            <span class="placeholder col-12 placeholder-xs"></span>
+        </section>
+        <h2 class="text-info">Animation </h2>
+        <p>Animate placeholders with .placeholder-glow or .placeholder-wave to better convey the perception of something being actively loaded.</p>
+        <section class="mx-auto p-2 rounded">
+            <p class="placeholder-glow">
+                <span class="placeholder col-12"></span>
+              </p>
+              
+              <p class="placeholder-wave">
+                <span class="placeholder col-12"></span>
+              </p>
+        </section>
+        <section class="mx-auto p-2">
+            <a href="../index.html" class="btn btn-primary">Atras</a>
+        </section>
+    </section>
+    
+</body>
+</html>

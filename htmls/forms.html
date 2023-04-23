@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>Forms</h1>
+        </section>
+            <h2 class="text-info">Form Control</h2>
+            <h3 class="text-info">Example</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+            <section class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </section>
+              <section class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </section>
+            </section>
+            <h3 class="text-info">Sizing</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
+                <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
+                <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
+            </section>
+            <h3 class="text-info">Form text</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <label for="inputPassword5" class="form-label">Password</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+                <section id="passwordHelpBlock" class="form-text">
+                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </section>
+            </section>
+            <h3 class="text-info">Form text 2</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="row g-3 align-items-center">
+                    <section class="col-auto">
+                      <label for="inputPassword6" class="col-form-label">Password</label>
+                    </section>
+                    <section class="col-auto">
+                      <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+                    </section>
+                    <section class="col-auto">
+                      <span id="passwordHelpInline" class="form-text">
+                        Must be 8-20 characters long.
+                      </span>
+                    </section>
+                  </section>
+            </section>
+            <h3 class="text-info">Disabled</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <input class="form-control" type="text" placeholder="Disabled input" aria-label="Disabled input example" disabled>
+                <input class="form-control" type="text" value="Disabled readonly input" aria-label="Disabled input example" disabled readonly>
+            </section>
+            <h3 class="text-info">Readonly</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <input class="form-control" type="text" value="Readonly input here..." aria-label="readonly input example" readonly>
+            </section>
+            <h3 class="text-info">Readonly plain text</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="mb-3 row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                    <section class="col-sm-10">
+                      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                    </section>
+                  </section>
+                  <section class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                    <section class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword">
+                    </section>
+                  </section>
+            </section>
+            <h3 class="text-info">Readonly plain text 2</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <form class="row g-3">
+                    <section class="col-auto">
+                      <label for="staticEmail2" class="visually-hidden">Email</label>
+                      <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+                    </section>
+                    <section class="col-auto">
+                      <label for="inputPassword2" class="visually-hidden">Password</label>
+                      <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                    </section>
+                    <section class="col-auto">
+                      <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+                    </section>
+                </form>
+            </section>
+            <h3 class="text-info">File input</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="mb-3">
+                    <label for="formFile" class="form-label">Default file input example</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </section>
+                  <section class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                  </section>
+                  <section class="mb-3">
+                    <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+                    <input class="form-control" type="file" id="formFileDisabled" disabled>
+                  </section>
+                  <section class="mb-3">
+                    <label for="formFileSm" class="form-label">Small file input example</label>
+                    <input class="form-control form-control-sm" id="formFileSm" type="file">
+                  </section>
+                  <section>
+                    <label for="formFileLg" class="form-label">Large file input example</label>
+                    <input class="form-control form-control-lg" id="formFileLg" type="file">
+                  </section>
+            </section>
+            <h3 class="text-info">Color</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <label for="exampleColorInput" class="form-label">Color picker</label>
+                <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+            </section>
+            <h3 class="text-info">Datalists</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <label for="exampleDataList" class="form-label">Datalist example</label>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                <datalist id="datalistOptions">
+                <option value="San Francisco">
+                <option value="New York">
+                <option value="Seattle">
+                <option value="Los Angeles">
+                <option value="Chicago">
+                </datalist>
+            </section>
+            <h2 class="text-info">Select</h2>
+            <h3>Default</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </section>
+            <h3 class="text-info">Sizing</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                <h4>The multiple attribute is also supported</h4>
+                <select class="form-select" multiple aria-label="multiple select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <h4>As is the size attribute</h4>
+                <select class="form-select" size="3" aria-label="size 3 select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>                  
+            </section>
+            <h3 class="text-info">Disabled</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <select class="form-select" aria-label="Disabled select example" disabled>
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </section>
+            <h2 class="text-info">Checks and radios</h2>
+            <h3 class="text-info">Approach</h3>
+            <h3 class="text-info">Checks</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </section>
+                  <section class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Checked checkbox
+                    </label>
+                  </section>
+            </section>
+            <h3 class="text-info">Indeterminate</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Indeterminate checkbox
+                    </label>
+                  </section>
+            </section>
+            <h3 class="text-info">Disabled</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminateDisabled" disabled>
+                    <label class="form-check-label" for="flexCheckIndeterminateDisabled">
+                      Disabled indeterminate checkbox
+                    </label>
+                  </section>
+                  <section class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+                    <label class="form-check-label" for="flexCheckDisabled">
+                      Disabled checkbox
+                    </label>
+                  </section>
+                  <section class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
+                    <label class="form-check-label" for="flexCheckCheckedDisabled">
+                      Disabled checked checkbox
+                    </label>
+                  </section>
+            </section>
+            <h3 class="text-info">Radios</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Default radio
+                    </label>
+                  </section>
+                  <section class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Default checked radio
+                    </label>
+                  </section>                
+            </section>
+            <h3 class="text-info">Disabled</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+                    <label class="form-check-label" for="flexRadioDisabled">
+                      Disabled radio
+                    </label>
+                  </section>
+                  <section class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" checked disabled>
+                    <label class="form-check-label" for="flexRadioCheckedDisabled">
+                      Disabled checked radio
+                    </label>
+                  </section>
+            </section>
+            <h3 class="text-info">Switches</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+                  </section>
+                  <section class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+                  </section>
+                  <section class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled>
+                    <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+                  </section>
+                  <section class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+                    <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+                  </section>
+            </section>
+            <h3 class="text-info">Default (stacked)</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Default checkbox
+                    </label>
+                  </section>
+                  <section class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                    <label class="form-check-label" for="defaultCheck2">
+                      Disabled checkbox
+                    </label>
+                  </section>
+            </section>
+            <h3 class="text-info">Default (stacked)2</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      Default radio
+                    </label>
+                  </section>
+                  <section class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                      Second default radio
+                    </label>
+                  </section>
+                  <section class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                    <label class="form-check-label" for="exampleRadios3">
+                      Disabled radio
+                    </label>
+                  </section>
+            </section>
+            <h3 class="text-info">Inline</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">1</label>
+                  </section>
+                  <section class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">2</label>
+                  </section>
+                  <section class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+                    <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+                  </section>
+            </section>
+            <h3 class="text-info">Inline2</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">1</label>
+                  </section>
+                  <section class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">2</label>
+                  </section>
+                  <section class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                    <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                  </section>
+            </section>
+            <h3 class="text-info">Reverse</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-check form-check-reverse">
+                    <input class="form-check-input" type="checkbox" value="" id="reverseCheck1">
+                    <label class="form-check-label" for="reverseCheck1">
+                      Reverse checkbox
+                    </label>
+                  </section>
+                  <section class="form-check form-check-reverse">
+                    <input class="form-check-input" type="checkbox" value="" id="reverseCheck2" disabled>
+                    <label class="form-check-label" for="reverseCheck2">
+                      Disabled reverse checkbox
+                    </label>
+                  </section>
+                  
+                  <section class="form-check form-switch form-check-reverse">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+                    <label class="form-check-label" for="flexSwitchCheckReverse">Reverse switch checkbox input</label>
+                  </section>
+            </section>
+            <h3 class="text-info">Without labels</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section>
+                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                  </section>
+                  
+                  <section>
+                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                  </section>
+
+            </section>
+            <h3 class="text-info">Toggle buttons</h3>
+            <h3 class="text-info">Checkbox toggle buttons</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <h4>Single toggle</h4>
+                <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                <label class="btn btn-primary" for="btn-check">Single toggle</label>
+                <h4>Checked</h4>
+                <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+                <label class="btn btn-primary" for="btn-check-2">Checked</label>
+                <h4>Disabled</h4>
+                <input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off" disabled>
+                <label class="btn btn-primary" for="btn-check-3">Disabled</label>
+            </section>
+            <h3 class="text-info">Radio toggle buttons</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="option1">Checked</label>
+
+                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                <label class="btn btn-secondary" for="option2">Radio</label>
+
+                <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" disabled>
+                <label class="btn btn-secondary" for="option3">Disabled</label>
+
+                <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+                <label class="btn btn-secondary" for="option4">Radio</label>
+            </section>
+            <h3 class="text-info">Outlined styles</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btn-check-outlined">Single toggle</label><br>
+
+                <input type="checkbox" class="btn-check" id="btn-check-2-outlined" checked autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btn-check-2-outlined">Checked</label><br>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+                <label class="btn btn-outline-success" for="success-outlined">Checked success radio</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+                <label class="btn btn-outline-danger" for="danger-outlined">Danger radio</label>
+            </section>
+            <h2 class="text-info">Range</h2>
+            <h3 class="text-info">Overview</h3>
+            <section class="mx-auto p-2 bg-dark rounded text-white">
+                <label for="customRange1" class="form-label">Example range</label>
+                <input type="range" class="form-range" id="customRange1">
+            </section>
+            <h3 class="text-info">Disabled</h3>
+            <section class="mx-auto p-2 bg-dark rounded text-white">
+                <label for="disabledRange" class="form-label">Disabled range</label>
+                <input type="range" class="form-range" id="disabledRange" disabled>
+            </section>
+            <h3 class="text-info">Min and max</h3>
+            <section class="mx-auto p-2 bg-dark rounded text-white">
+                <label for="customRange2" class="form-label">Example range</label>
+            <input type="range" class="form-range" min="0" max="5" id="customRange2">
+            </section>
+            <h3 class="text-info">Steps</h3>
+            <section class="mx-auto p-2 bg-dark rounded text-white">
+                <label for="customRange3" class="form-label">Example range</label>
+                <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+            </section>
+            <h2 class="text-info">Input group</h2>
+            <h3 class="text-info">Basic example</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                  </section>
+                  
+                  <section class="mb-3">
+                    <label for="basic-url" class="form-label">Your vanity URL</label>
+                    <section class="input-group">
+                      <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                      <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                    </section>
+                    <section class="form-text" id="basic-addon4">Example help text goes outside the input group.</section>
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <span class="input-group-text">$</span>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <span class="input-group-text">.00</span>
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                  </section>
+                  
+                  <section class="input-group">
+                    <span class="input-group-text">With textarea</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </section>
+            </section>
+            <h3 class="text-info">Wrapping</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                  </section>
+            </section>
+            <h3 class="text-info">Sizing</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </section>
+                  
+                  <section class="input-group input-group-lg">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                  </section>
+            </section>
+            <h3 class="text-info">Checkboxes and radios</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group mb-3">
+                    <section class="input-group-text">
+                      <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                    </section>
+                    <input type="text" class="form-control" aria-label="Text input with checkbox">
+                  </section>
+                  
+                  <section class="input-group">
+                    <section class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+                    </section>
+                    <input type="text" class="form-control" aria-label="Text input with radio button">
+                  </section>
+            </section>
+            <h3 class="text-info">Multiple inputs</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group">
+                    <span class="input-group-text">First and last name</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control">
+                  </section>
+            </section>
+            <h3 class="text-info">Multiple addons</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group mb-3">
+                    <span class="input-group-text">$</span>
+                    <span class="input-group-text">0.00</span>
+                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                  </section>
+                  
+                  <section class="input-group">
+                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                    <span class="input-group-text">$</span>
+                    <span class="input-group-text">0.00</span>
+                  </section>
+            </section>
+            <h3 class="text-info">Button addons</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group mb-3">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+                    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                    <input type="text" class="form-control" placeholder="" aria-label="Example text with two button addons">
+                  </section>
+                  
+                  <section class="input-group">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username with two button addons">
+                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                  </section>
+            </section>
+            <h3 class="text-info">Buttons with dropdowns</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group mb-3">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-sectionider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-sectionider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </section>
+                  
+                  <section class="input-group">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action before</a></li>
+                      <li><a class="dropdown-item" href="#">Another action before</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-sectionider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                    <input type="text" class="form-control" aria-label="Text input with 2 dropdown buttons">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-sectionider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </section>
+
+
+            </section>
+            <h3 class="text-info">Segmented buttons</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group mb-3">
+                    <button type="button" class="btn btn-outline-secondary">Action</button>
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                  </section>
+                  
+                  <section class="input-group">
+                    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                    <button type="button" class="btn btn-outline-secondary">Action</button>
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </section>
+            </section>
+            <h3 class="text-info">Custom forms</h3>
+            <h3 class="text-info">Custom select</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                    <select class="form-select" id="inputGroupSelect01">
+                      <option selected>Choose...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <select class="form-select" id="inputGroupSelect02">
+                      <option selected>Choose...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <label class="input-group-text" for="inputGroupSelect02">Options</label>
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                    <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                      <option selected>Choose...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </section>
+                  
+                  <section class="input-group">
+                    <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                      <option selected>Choose...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <button class="btn btn-outline-secondary" type="button">Button</button>
+                  </section>
+            </section>
+            <h3 class="text-info">Custom file input</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                    <input type="file" class="form-control" id="inputGroupFile01">
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                  </section>
+                  
+                  <section class="input-group mb-3">
+                    <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon03">Button</button>
+                    <input type="file" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+                  </section>
+                  
+                  <section class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                    <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
+                  </section>
+            </section>
+            <h2 class="text-info">Floating labels</h2>
+            <h3 class="text-info">Example</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </section>
+                  <section class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </section>
+                <h4>When there’s a value already defined, labels will automatically adjust to their floated position.</h4>
+                <form class="form-floating">
+                    <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
+                    <label for="floatingInputValue">Input with value</label>
+                  </form>
+                <h4>Form validation styles also work as expected</h4>
+                <form class="form-floating">
+                    <input type="email" class="form-control is-invalid" id="floatingInputInvalid" placeholder="name@example.com" value="test@example.com">
+                    <label for="floatingInputInvalid">Invalid input</label>
+                </form>
+
+            </section>
+            <h3 class="text-info">Textareas</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Comments</label>
+                </section>
+                <section class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </section>
+            </section>
+            <h3 class="text-info">Selects</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <label for="floatingSelect">Works with selects</label>
+                  </section>
+            </section>
+            <h3 class="text-info">Disabled</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
+                    <label for="floatingInputDisabled">Email address</label>
+                  </section>
+                  <section class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
+                    <label for="floatingTextareaDisabled">Comments</label>
+                  </section>
+                  <section class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled></textarea>
+                    <label for="floatingTextarea2Disabled">Comments</label>
+                  </section>
+                  <section class="form-floating">
+                    <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example" disabled>
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <label for="floatingSelectDisabled">Works with selects</label>
+                  </section>
+            </section>
+            <h3 class="text-info">Readonly plaintext</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="form-floating mb-3">
+                    <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="name@example.com">
+                    <label for="floatingEmptyPlaintextInput">Empty input</label>
+                  </section>
+                  <section class="form-floating mb-3">
+                    <input type="email" readonly class="form-control-plaintext" id="floatingPlaintextInput" placeholder="name@example.com" value="name@example.com">
+                    <label for="floatingPlaintextInput">Input with value</label>
+                  </section>
+            </section>
+            <h3 class="text-info">Input groups</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="input-group mb-3">
+                    <span class="input-group-text">@</span>
+                    <section class="form-floating">
+                      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                      <label for="floatingInputGroup1">Username</label>
+                    </section>
+                  </section>
+                  <section class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <section class="form-floating is-invalid">
+                      <input type="text" class="form-control is-invalid" id="floatingInputGroup2" placeholder="Username" required>
+                      <label for="floatingInputGroup2">Username</label>
+                    </section>
+                    <section class="invalid-feedback">
+                      Please choose a username.
+                    </section>
+                  </section>
+            </section>
+            <h3 class="text-info">Layout</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <section class="row g-2">
+                    <section class="col-md">
+                      <section class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+                        <label for="floatingInputGrid">Email address</label>
+                      </section>
+                    </section>
+                    <section class="col-md">
+                      <section class="form-floating">
+                        <select class="form-select" id="floatingSelectGrid">
+                          <option selected>Open this select menu</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                        <label for="floatingSelectGrid">Works with selects</label>
+                      </section>
+                    </section>
+                  </section>      
+            </section>
+            <h2 class="text-info">Validation</h2>
+            <h3 class="text-info">Custom styles</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <form class="row g-3 needs-validation" novalidate>
+                    <section class="col-md-4">
+                      <label for="validationCustom01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                      <section class="valid-feedback">
+                        Looks good!
+                      </section>
+                    </section>
+                    <section class="col-md-4">
+                      <label for="validationCustom02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                      <section class="valid-feedback">
+                        Looks good!
+                      </section>
+                    </section>
+                    <section class="col-md-4">
+                      <label for="validationCustomUsername" class="form-label">Username</label>
+                      <section class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <section class="invalid-feedback">
+                          Please choose a username.
+                        </section>
+                      </section>
+                    </section>
+                    <section class="col-md-6">
+                      <label for="validationCustom03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationCustom03" required>
+                      <section class="invalid-feedback">
+                        Please provide a valid city.
+                      </section>
+                    </section>
+                    <section class="col-md-3">
+                      <label for="validationCustom04" class="form-label">State</label>
+                      <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                      <section class="invalid-feedback">
+                        Please select a valid state.
+                      </section>
+                    </section>
+                    <section class="col-md-3">
+                      <label for="validationCustom05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationCustom05" required>
+                      <section class="invalid-feedback">
+                        Please provide a valid zip.
+                      </section>
+                    </section>
+                    <section class="col-12">
+                      <section class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <section class="invalid-feedback">
+                          You must agree before submitting.
+                        </section>
+                      </section>
+                    </section>
+                    <section class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </section>
+                  </form>
+            </section>
+            <h3 class="text-info">Browser defaults</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <form class="row g-3">
+                    <section class="col-md-4">
+                      <label for="validationDefault01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+                    </section>
+                    <section class="col-md-4">
+                      <label for="validationDefault02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+                    </section>
+                    <section class="col-md-4">
+                      <label for="validationDefaultUsername" class="form-label">Username</label>
+                      <section class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                        <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                      </section>
+                    </section>
+                    <section class="col-md-6">
+                      <label for="validationDefault03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationDefault03" required>
+                    </section>
+                    <section class="col-md-3">
+                      <label for="validationDefault04" class="form-label">State</label>
+                      <select class="form-select" id="validationDefault04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </section>
+                    <section class="col-md-3">
+                      <label for="validationDefault05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationDefault05" required>
+                    </section>
+                    <section class="col-12">
+                      <section class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                          Agree to terms and conditions
+                        </label>
+                      </section>
+                    </section>
+                    <section class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </section>
+                  </form>
+            </section>
+            <h3 class="text-info">Server-side</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <form class="row g-3">
+                    <section class="col-md-4">
+                      <label for="validationServer01" class="form-label">First name</label>
+                      <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                      <section class="valid-feedback">
+                        Looks good!
+                      </section>
+                    </section>
+                    <section class="col-md-4">
+                      <label for="validationServer02" class="form-label">Last name</label>
+                      <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+                      <section class="valid-feedback">
+                        Looks good!
+                      </section>
+                    </section>
+                    <section class="col-md-4">
+                      <label for="validationServerUsername" class="form-label">Username</label>
+                      <section class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                        <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                        <section id="validationServerUsernameFeedback" class="invalid-feedback">
+                          Please choose a username.
+                        </section>
+                      </section>
+                    </section>
+                    <section class="col-md-6">
+                      <label for="validationServer03" class="form-label">City</label>
+                      <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                      <section id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                      </section>
+                    </section>
+                    <section class="col-md-3">
+                      <label for="validationServer04" class="form-label">State</label>
+                      <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                      <section id="validationServer04Feedback" class="invalid-feedback">
+                        Please select a valid state.
+                      </section>
+                    </section>
+                    <section class="col-md-3">
+                      <label for="validationServer05" class="form-label">Zip</label>
+                      <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                      <section id="validationServer05Feedback" class="invalid-feedback">
+                        Please provide a valid zip.
+                      </section>
+                    </section>
+                    <section class="col-12">
+                      <section class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                          Agree to terms and conditions
+                        </label>
+                        <section id="invalidCheck3Feedback" class="invalid-feedback">
+                          You must agree before submitting.
+                        </section>
+                      </section>
+                    </section>
+                    <section class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </section>
+                  </form>
+
+            </section>
+            <h3 class="text-info">Supported elements</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <form class="was-validated">
+                    <section class="mb-3">
+                      <label for="validationTextarea" class="form-label">Textarea</label>
+                      <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                      <section class="invalid-feedback">
+                        Please enter a message in the textarea.
+                      </section>
+                    </section>
+                  
+                    <section class="form-check mb-3">
+                      <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+                      <label class="form-check-label" for="validationFormCheck1">Check this checkbox</label>
+                      <section class="invalid-feedback">Example invalid feedback text</section>
+                    </section>
+                  
+                    <section class="form-check">
+                      <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                      <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+                    </section>
+                    <section class="form-check mb-3">
+                      <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                      <label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
+                      <section class="invalid-feedback">More example invalid feedback text</section>
+                    </section>
+                  
+                    <section class="mb-3">
+                      <select class="form-select" required aria-label="select example">
+                        <option value="">Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <section class="invalid-feedback">Example invalid select feedback</section>
+                    </section>
+                  
+                    <section class="mb-3">
+                      <input type="file" class="form-control" aria-label="file example" required>
+                      <section class="invalid-feedback">Example invalid form file feedback</section>
+                    </section>
+                  
+                    <section class="mb-3">
+                      <button class="btn btn-primary" type="submit" disabled>Submit form</button>
+                    </section>
+                  </form>
+
+            </section>
+            <h3 class="text-info">Tooltips</h3>
+            <section class="mx-auto p-2 bg-white rounded">
+                <form class="row g-3 needs-validation" novalidate>
+                    <section class="col-md-4 position-relative">
+                      <label for="validationTooltip01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                      <section class="valid-tooltip">
+                        Looks good!
+                      </section>
+                    </section>
+                    <section class="col-md-4 position-relative">
+                      <label for="validationTooltip02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                      <section class="valid-tooltip">
+                        Looks good!
+                      </section>
+                    </section>
+                    <section class="col-md-4 position-relative">
+                      <label for="validationTooltipUsername" class="form-label">Username</label>
+                      <section class="input-group has-validation">
+                        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                        <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                        <section class="invalid-tooltip">
+                          Please choose a unique and valid username.
+                        </section>
+                      </section>
+                    </section>
+                    <section class="col-md-6 position-relative">
+                      <label for="validationTooltip03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationTooltip03" required>
+                      <section class="invalid-tooltip">
+                        Please provide a valid city.
+                      </section>
+                    </section>
+                    <section class="col-md-3 position-relative">
+                      <label for="validationTooltip04" class="form-label">State</label>
+                      <select class="form-select" id="validationTooltip04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                      <section class="invalid-tooltip">
+                        Please select a valid state.
+                      </section>
+                    </section>
+                    <section class="col-md-3 position-relative">
+                      <label for="validationTooltip05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationTooltip05" required>
+                      <section class="invalid-tooltip">
+                        Please provide a valid zip.
+                      </section>
+                    </section>
+                    <section class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </section>
+                  </form>
+            </section>
+            <section class="bg-info text-center w-auto p-3">
+                <h1>Fin de Formularios</h1>
+            </section>
+            <section class="mx-auto p-2">
+              <a href="../index.html" class="btn btn-primary">Atras</a>
+          </section>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="container bg-dark">
+        <section class="bg-info text-center w-auto p-3">
+            <h1>Card</h1>
+        </section>
+        <h2 class="text-info">How it works</h2>
+        <p>Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.</p>
+        <h2>Example</h2>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card" style="width: 18rem;">
+                <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                <section class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Content types</h2>
+        <p>Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported.</p>
+        <h2>Body</h2>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card">
+                <section class="card-body">
+                  This is some text within a card body.
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Titles, text, and links</h2>
+        <p>Card titles are used by adding .card-title to a <h*> tag. In the same way, links are added and placed next to each other by adding .card-link to an <a> tag.
+
+            Subtitles are used by adding a .card-subtitle to a <h*> tag. If the .card-title and the .card-subtitle items are placed in a .card-body item, the card title and subtitle are aligned nicely.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card" style="width: 18rem;">
+                <section class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Images</h2>
+        <p>.card-img-top places an image to the top of the card. With .card-text, text can be added to the card. Text within .card-text can also be styled with the standard HTML tags.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card" style="width: 18rem;">
+                <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                <section class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">List groups</h2>
+        <p>Create lists of content in a card with a flush list group.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+              </section>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card" style="width: 18rem;">
+                <section class="card-header">
+                  Featured
+                </section>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+              </section>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <section class="card-footer">
+                  Card footer
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Kitchen sink</h2>
+        <p>Mix and match multiple content types to create the card you need, or throw everything in there. Shown below are image styles, blocks, text styles, and a list group—all wrapped in a fixed-width card.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card" style="width: 18rem;">
+                <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                <section class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <section class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Header and footer</h2>
+        <p>Add an optional header and/or footer within a card.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card">
+                <section class="card-header">
+                  Featured
+                </section>
+                <section class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+              </section>
+        </section>
+        <p>Card headers can be styled by adding .card-header to <h*> elements.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card">
+                <h5 class="card-header">Featured</h5>
+                <section class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+              </section>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card">
+                <section class="card-header">
+                  Quote
+                </section>
+                <section class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                </section>
+              </section>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card text-center">
+                <section class="card-header">
+                  Featured
+                </section>
+                <section class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+                <section class="card-footer text-body-secondary">
+                  2 days ago
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Sizing</h2>
+        <p>Cards assume no specific width to start, so they’ll be 100% wide unless otherwise stated. You can change this as needed with custom CSS, grid classes, grid Sass mixins, or utilities.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="row">
+                <section class="col-sm-6 mb-3 mb-sm-0">
+                  <section class="card">
+                    <section class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </section>
+                  </section>
+                </section>
+                <section class="col-sm-6">
+                  <section class="card">
+                    <section class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </section>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Using utilities</h2>
+        <p>Use our handful of available sizing utilities to quickly set a card’s width.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card w-75 mb-3">
+                <section class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Button</a>
+                </section>
+              </section>
+              
+              <section class="card w-50">
+                <section class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Button</a>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Using custom CSS</h2>
+        <p>Use custom CSS in your stylesheets or as inline styles to set a width.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card" style="width: 18rem;">
+                <section class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Text alignment</h2>
+        <p>You can quickly change the text alignment of any card—in its entirety or specific parts—with our text align classes</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card mb-3" style="width: 18rem;">
+                <section class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+              </section>
+              
+              <section class="card text-center mb-3" style="width: 18rem;">
+                <section class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+              </section>
+              
+              <section class="card text-end" style="width: 18rem;">
+                <section class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Navigation</h2>
+        <p>Add some navigation to a card’s header (or block) with Bootstrap’s nav components.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card text-center">
+                <section class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="true" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">Disabled</a>
+                    </li>
+                  </ul>
+                </section>
+                <section class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+              </section>
+        </section>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card text-center">
+                <section class="card-header">
+                  <ul class="nav nav-pills card-header-pills">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">Disabled</a>
+                    </li>
+                  </ul>
+                </section>
+                <section class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Images</h2>
+        <p>Similar to headers and footers, cards can include top and bottom “image caps”—images at the top or bottom of a card.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card mb-3">
+                <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                <section class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </section>
+              </section>
+              <section class="card">
+                <section class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </section>
+                <img src="../asserts/alertsCard.png" class="card-img-bottom" alt="...">
+              </section>
+        </section>
+        <h2 class="text-info">Image overlays</h2>
+        <p>Turn an image into a card background and overlay your card’s text. Depending on the image, you may or may not need additional styles or utilities.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card text-bg-dark">
+                <img src="../asserts/alertsCard.png" class="card-img" alt="...">
+                <section class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Horizontal</h2>
+        <p>Using a combination of grid and utility classes, cards can be made horizontal in a mobile-friendly and responsive way. In the example below, we remove the grid gutters with .g-0 and use .col-md-* classes to make the card horizontal at the md breakpoint. Further adjustments may be needed depending on your card content.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card mb-3" style="max-width: 540px;">
+                <section class="row g-0">
+                  <section class="col-md-4">
+                    <img src="../asserts/alertsCard.png" class="img-fluid rounded-start" alt="...">
+                  </section>
+                  <section class="col-md-8">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </section>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Card styles</h2>
+        <p>Background and color</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Secondary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card text-bg-success mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card text-bg-danger mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Danger card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Warning card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card text-bg-info mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Info card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card text-bg-light mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Light card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Dark card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Border</h2>
+        <p>Use border utilities to change just the border-color of a card. Note that you can put .text-{color} classes on the parent .card or a subset of the card’s contents as shown below.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card border-primary mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body text-primary">
+                  <h5 class="card-title">Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card border-secondary mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body text-secondary">
+                  <h5 class="card-title">Secondary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card border-success mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card border-danger mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body text-danger">
+                  <h5 class="card-title">Danger card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card border-warning mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Warning card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card border-info mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Info card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card border-light mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Light card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+              <section class="card border-dark mb-3" style="max-width: 18rem;">
+                <section class="card-header">Header</section>
+                <section class="card-body">
+                  <h5 class="card-title">Dark card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Mixins utilities</h2>
+        <p>You can also change the borders on the card header and footer as needed, and even remove their background-color with .bg-transparent.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card border-success mb-3" style="max-width: 18rem;">
+                <section class="card-header bg-transparent border-success">Header</section>
+                <section class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </section>
+                <section class="card-footer bg-transparent border-success">Footer</section>
+              </section>
+        </section>
+        <h2 class="text-info">Card layout</h2>
+        <p>Card groups</p>
+        <p>Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display: flex; to become attached with uniform dimensions starting at the sm breakpoint.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card-group">
+                <section class="card">
+                  <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                  <section class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </section>
+                </section>
+                <section class="card">
+                  <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                  <section class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </section>
+                </section>
+                <section class="card">
+                  <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                  <section class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <p>When using card groups with footers, their content will automatically line up.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="card-group">
+                <section class="card">
+                  <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                  <section class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </section>
+                  <section class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                  </section>
+                </section>
+                <section class="card">
+                  <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                  <section class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </section>
+                  <section class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                  </section>
+                </section>
+                <section class="card">
+                  <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                  <section class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </section>
+                  <section class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <h2 class="text-info">Grid cards</h2>
+        <p>Use the Bootstrap grid system and its .row-cols classes to control how many grid columns (wrapped around your cards) you show per row. For example, here’s .row-cols-1 laying out the cards on one column, and .row-cols-md-2 splitting four cards to equal width across multiple rows, from the medium breakpoint up.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="row row-cols-1 row-cols-md-2 g-4">
+                <section class="col">
+                  <section class="card">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </section>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <p>Change it to .row-cols-3 and you’ll see the fourth card wrap.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="row row-cols-1 row-cols-md-3 g-4">
+                <section class="col">
+                  <section class="card">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </section>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <p>When you need equal height, add .h-100 to the cards. If you want equal heights by default, you can set $card-height: 100% in Sass.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="row row-cols-1 row-cols-md-3 g-4">
+                <section class="col">
+                  <section class="card h-100">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card h-100">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a short card.</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card h-100">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card h-100">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </section>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <p>Just like with card groups, card footers will automatically line up.</p>
+        <section class="mx-auto p-2 bg-white rounded">
+            <section class="row row-cols-1 row-cols-md-3 g-4">
+                <section class="col">
+                  <section class="card h-100">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </section>
+                    <section class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card h-100">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </section>
+                    <section class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </section>
+                  </section>
+                </section>
+                <section class="col">
+                  <section class="card h-100">
+                    <img src="../asserts/alertsCard.png" class="card-img-top" alt="...">
+                    <section class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </section>
+                    <section class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </section>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <section class="mx-auto p-2">
+            <a href="../index.html" class="btn btn-primary">Atras</a>
+        </section>
+    </section>
+    
+</body>
+</html>
